@@ -10,17 +10,6 @@ img{
     background-color:#000;
 }
 
-.jumbo_tron{
-    /* height:300px; */
-}
-.jumbo_tron{
-    height:600px;
-}
-
-.jumbo_tron img{
-    height: 100%;
-    object-fit:cover;
-}
 
 .button_custom{
     all: unset;
@@ -38,4 +27,33 @@ img{
 
 .nav-item i{
     font-size:25px;
+}
+
+.jumbotron_customized{
+    position: relative;
+}
+
+.jumbo_tron{
+    height:600px;
+}
+    
+.jumbo_tron img{
+    height: 100%;
+    object-fit:cover;
+}
+
+.m_t{
+    margin-top: 100px;
+}
+
+.position_abs{
+    position: absolute;
+    
+    height: 200px;
+    background-color: white;
+}
+
+.pos_lb{
+    left: 10px;
+    bottom: 10px;
 }
