@@ -1,0 +1,25 @@
+.sony img{
+    width: 100%;
+}
+
+.top_navbar{
+    background-color:#000;
+}
+
+.button_custom{
+    all: unset;
+    border-radius: 20px;
+    background-color:#363636;
+    color: #fff
+}
+.text_w{
+    color:#fff;
+}
+
+.button_custom:focus {
+    outline: none;
+}
+
+.nav-item i{
+    font-size:25px;
+}
