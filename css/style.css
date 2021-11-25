@@ -10,15 +10,16 @@ img{
     background-color:#000;
 }
 
+.text_w{
+    color:#fff;
+}
 
 .button_custom{
     all: unset;
     border-radius: 20px;
     background-color:#363636;
-    color: #fff
-}
-.text_w{
-    color:#fff;
+    color: #fff;
+    padding: 5px 30px;
 }
 
 .button_custom:focus {
@@ -34,7 +35,7 @@ img{
 }
 
 .jumbo_tron{
-    height:600px;
+    height:550px;
 }
     
 .jumbo_tron img{
@@ -49,11 +50,15 @@ img{
 .position_abs{
     position: absolute;
     
-    height: 200px;
-    background-color: white;
+    /* height: 200px; */
+    /* background-color: white; */
 }
 
 .pos_lb{
-    left: 10px;
-    bottom: 10px;
+    left: 50px;
+    bottom: 70px;
+}
+
+.col_bg_orange{
+    background-color:orange;
 }
