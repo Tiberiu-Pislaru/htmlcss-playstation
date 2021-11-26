@@ -55,10 +55,22 @@ img{
 }
 
 .pos_lb{
-    left: 50px;
+    left: 30px;
     bottom: 70px;
 }
 
 .col_bg_orange{
     background-color:orange;
+}
+
+.container_gioco_jumbotron{
+    /* height: 50px; */
+    /* background-color: red; */
+    /* margin-right: 3px; */
+    margin-bottom:3px;
+}
+
+.container_gioco_jumbotron img{
+    
+    border-radius: 15px;
 }
