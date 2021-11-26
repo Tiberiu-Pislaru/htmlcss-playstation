@@ -14,6 +14,11 @@ img{
     color:#fff;
 }
 
+.bg_black{
+    background-color:#1f1f1f;
+}
+
+
 .button_custom{
     all: unset;
     border-radius: 20px;
@@ -73,4 +78,29 @@ img{
 .container_gioco_jumbotron img{
     
     border-radius: 15px;
+}
+
+.container_thumb img{
+    filter:opacity(50%);
+}
+
+.container_thumb img:active{
+    filter:opacity(100%);
+}
+
+
+.first_jumbotron .jumbo_display{
+    background: url("../img/jumbo-bg.png");
+    
+}
+
+.second_jumbotron .jumbo_display{
+    background: url("../img/it-takes-two-hero-banner-desktop.jpg") no-repeat ;
+    
+}
+
+.second_jumbotron .jumbo_display, 
+.first_jumbotron .jumbo_display{
+    background-position: center;
+    padding:370px 0 50px 0;  
 }
