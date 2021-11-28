@@ -101,7 +101,7 @@ img{
 
 
 .first_jumbotron .jumbo_display{
-    background: url("../img/jumbo-bg.png");
+    background: url("../img/jumbo-bg.png") no-repeat;
     
 }
 
@@ -113,7 +113,7 @@ img{
 .second_jumbotron .jumbo_display, 
 .first_jumbotron .jumbo_display{
     background-position: center;
-    padding:370px 0 50px 0;  
+    padding:360px 0 40px 0;  
 }
 
 .region>img{
