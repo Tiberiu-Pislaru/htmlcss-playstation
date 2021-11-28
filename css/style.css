@@ -26,6 +26,9 @@ img{
     background-color:#4e4e4e;
 }
 
+.bg_blue{
+    background-color:blue;
+}
 
 .button_custom{
     all: unset;
@@ -111,4 +114,22 @@ img{
 .first_jumbotron .jumbo_display{
     background-position: center;
     padding:370px 0 50px 0;  
+}
+
+.region>img{
+    width:15px;
+    fill: #000;
+}
+
+.play_logo{
+    fill:white;
+}
+
+.footer_right a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.testo_legale a{
+    color: #fff;
 }
