@@ -3,6 +3,7 @@
     border-radius: 40px;
     border-width: 2px;
     padding: 5px 30px;
+    border:  solid transparent;
 }
 
 img{
@@ -25,26 +26,40 @@ img{
     color:grey;
 }
 
+.text_blue{
+    color: blue;
+}
+
 .bg_black{
     background-color:#1f1f1f;
 }
 
-.bg_grey{
-    background-color:#4e4e4e;
+.bg_ps_plus{
+    background-color:#bebcbb;
+}
+
+.bg_ps_now{
+    background-color:#161c3b;
 }
 
 .bg_blue{
     background-color:blue;
 }
 
-
-
 .bg_dark{
     background-color:#363636;
 }
 
-.button_custom:hover{
-    box-shadow: inset 0px 0px 0px 2px rgb(130, 238, 135);
+.bg_orange{
+    background-color:orange;
+}
+
+.bg_white_opacity{
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+.bg_white{
+    background-color:white
 }
 
 .nav-item i{
@@ -64,8 +79,6 @@ img{
     top: -10px;
 }
 
-
-
 .jumbo_tron{
     height:550px;
 }
@@ -74,19 +87,13 @@ img{
     margin-top: 100px;
 }
 
-.col_bg_orange{
-    background-color:orange;
-}
 
 .container_gioco_jumbotron{
-    /* height: 50px; */
-    /* background-color: red; */
-    /* margin-right: 3px; */
     margin-bottom:3px;
 }
 
-.container_gioco_jumbotron img{
-    
+.container_gioco_jumbotron img,
+.container_gioco img{
     border-radius: 15px;
 }
 
@@ -103,13 +110,11 @@ img{
 
 
 .first_jumbotron .jumbo_display{
-    background: url("../img/jumbo-bg.png") no-repeat;
-    
+    background: url("../img/jumbo-bg.png") no-repeat;  
 }
 
 .second_jumbotron .jumbo_display{
-    background: url("../img/it-takes-two-hero-banner-desktop.jpg") no-repeat ;
-    
+    background: url("../img/it-takes-two-hero-banner-desktop.jpg") no-repeat ;  
 }
 
 .second_jumbotron .jumbo_display, 
@@ -120,11 +125,6 @@ img{
 
 .region>img{
     width:15px;
-    fill: #000;
-}
-
-.play_logo{
-    fill:white;
 }
 
 .footer_right a{
@@ -139,3 +139,6 @@ img{
 
 /* hover bottoni */
 
+.button_custom:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(130, 238, 135);
+}
