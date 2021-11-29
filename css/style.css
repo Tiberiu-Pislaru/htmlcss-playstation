@@ -1,3 +1,10 @@
+.button_custom{
+    all: unset;
+    border-radius: 40px;
+    border-width: 2px;
+    padding: 5px 30px;
+}
+
 img{
     width: 100%;
 }
@@ -30,49 +37,41 @@ img{
     background-color:blue;
 }
 
-.button_custom{
-    all: unset;
-    border-radius: 20px;
+
+
+.bg_dark{
     background-color:#363636;
-    color: #fff;
-    padding: 5px 30px;
 }
 
-.button_custom:focus {
-    outline: none;
+.button_custom:hover{
+    box-shadow: inset 0px 0px 0px 2px rgb(130, 238, 135);
 }
 
 .nav-item i{
     font-size:25px;
 }
 
-.jumbotron_customized{
+.container_gioco_jumbotron img{
+    border:2px solid transparent;
+    padding:3px;
     position: relative;
+    top: 0;
+    transition: all .4s ease-in-out;
 }
+
+.container_gioco_jumbotron img:hover{
+    border-color: blue;
+    top: -10px;
+}
+
+
 
 .jumbo_tron{
     height:550px;
 }
-    
-.jumbo_tron img{
-    height: 100%;
-    object-fit:cover;
-}
 
 .m_t{
     margin-top: 100px;
-}
-
-.position_abs{
-    position: absolute;
-    
-    /* height: 200px; */
-    /* background-color: white; */
-}
-
-.pos_lb{
-    left: 30px;
-    bottom: 70px;
 }
 
 .col_bg_orange{
@@ -93,10 +92,13 @@ img{
 
 .container_thumb img{
     filter:opacity(50%);
+    border-bottom: 3px solid transparent;
+    transition: border-color .3s;
 }
 
-.container_thumb img:active{
+.container_thumb img:hover{
     filter:opacity(100%);
+    border-color: blue;
 }
 
 
@@ -133,3 +135,7 @@ img{
 .testo_legale a{
     color: #fff;
 }
+
+
+/* hover bottoni */
+
