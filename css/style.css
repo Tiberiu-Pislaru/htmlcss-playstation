@@ -120,6 +120,7 @@ img{
 .second_jumbotron .jumbo_display, 
 .first_jumbotron .jumbo_display{
     background-position: center;
+    background-size: cover;
     padding:360px 0 40px 0;  
 }
 
